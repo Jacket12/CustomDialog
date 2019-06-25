@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,37 @@
 		2C1E991822C1F70D0091044D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1E991622C1F70D0091044D /* LaunchScreen.storyboard */; };
 		2C1E992322C1F70D0091044D /* CustomDialogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E992222C1F70D0091044D /* CustomDialogTests.swift */; };
 		2C1E992E22C1F70D0091044D /* CustomDialogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E992D22C1F70D0091044D /* CustomDialogUITests.swift */; };
+		2C1E993E22C1F75B0091044D /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E993D22C1F75B0091044D /* OCViewController.m */; };
+		2C1E994122C1F9680091044D /* CustomDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E994022C1F9680091044D /* CustomDialogController.swift */; };
+		2C1E995822C1F9F10091044D /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E994622C1F9F10091044D /* InteractiveTransition.swift */; };
+		2C1E995922C1F9F10091044D /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E994722C1F9F10091044D /* PresentationController.swift */; };
+		2C1E995A22C1F9F10091044D /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E994822C1F9F10091044D /* UIImageView+Calculations.swift */; };
+		2C1E995B22C1F9F10091044D /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E994922C1F9F10091044D /* UIView+Animations.swift */; };
+		2C1E995C22C1F9F10091044D /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E994A22C1F9F10091044D /* PopupDialogDefaultView.swift */; };
+		2C1E995D22C1F9F10091044D /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E994B22C1F9F10091044D /* PopupDialog.swift */; };
+		2C1E995E22C1F9F10091044D /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E994C22C1F9F10091044D /* PopupDialogOverlayView.swift */; };
+		2C1E995F22C1F9F10091044D /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E994D22C1F9F10091044D /* PopupDialogButton.swift */; };
+		2C1E996022C1F9F10091044D /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E994E22C1F9F10091044D /* UIViewController+Visibility.swift */; };
+		2C1E996122C1F9F10091044D /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E995022C1F9F10091044D /* TransitionAnimator.swift */; };
+		2C1E996222C1F9F10091044D /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E995122C1F9F10091044D /* PopupDialog+Keyboard.swift */; };
+		2C1E996322C1F9F10091044D /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E995222C1F9F10091044D /* PopupDialogDefaultViewController.swift */; };
+		2C1E996422C1F9F10091044D /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E995322C1F9F10091044D /* TransitionAnimations.swift */; };
+		2C1E996522C1F9F10091044D /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E995422C1F9F10091044D /* PopupDialogDefaultButtons.swift */; };
+		2C1E996622C1F9F10091044D /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E995522C1F9F10091044D /* PresentationManager.swift */; };
+		2C1E996722C1F9F10091044D /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E995622C1F9F10091044D /* PopupDialogContainerView.swift */; };
+		2C1E996822C1F9F10091044D /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E995722C1F9F10091044D /* FXBlurView.m */; };
+		2C1E996B22C1FC090091044D /* SuperDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E996A22C1FC090091044D /* SuperDialog.swift */; };
+		2C1E996D22C1FD760091044D /* DialogAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E996C22C1FD760091044D /* DialogAction.swift */; };
+		2C1E996F22C20D550091044D /* BaseDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E996E22C20D550091044D /* BaseDialog.swift */; };
+		2C1E997122C20F010091044D /* MsgDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E997022C20F010091044D /* MsgDialog.swift */; };
+		2C1E997322C212E80091044D /* UILabel+AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E997222C212E80091044D /* UILabel+AttributedText.swift */; };
+		2C1E997522C213DB0091044D /* Com.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E997422C213DB0091044D /* Com.swift */; };
+		2C1E997A22C2208D0091044D /* ImgDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E997922C2208D0091044D /* ImgDialog.swift */; };
+		2C1E997C22C221540091044D /* UILabel+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E997B22C221540091044D /* UILabel+extension.swift */; };
+		2C1E997E22C222AE0091044D /* sad_popup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1E997D22C222AE0091044D /* sad_popup@2x.png */; };
+		2C1E998122C225C20091044D /* SignDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E998022C225C20091044D /* SignDialog.swift */; };
+		2C1E998322C226980091044D /* sign_coins_popup@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C1E998222C226980091044D /* sign_coins_popup@2x.jpg */; };
+		A8A93B351C0AFE409276C180 /* Pods_CustomDialog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74ABEDFC65033A81AB1F795 /* Pods_CustomDialog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1222CFEAABE5A326C4CE0832 /* Pods-CustomDialog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDialog.release.xcconfig"; path = "Target Support Files/Pods-CustomDialog/Pods-CustomDialog.release.xcconfig"; sourceTree = "<group>"; };
 		2C1E990A22C1F70A0091044D /* CustomDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1E990D22C1F70A0091044D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C1E990F22C1F70A0091044D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +79,41 @@
 		2C1E992922C1F70D0091044D /* CustomDialogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDialogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1E992D22C1F70D0091044D /* CustomDialogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogUITests.swift; sourceTree = "<group>"; };
 		2C1E992F22C1F70D0091044D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1E993B22C1F75B0091044D /* CustomDialog-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomDialog-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C1E993C22C1F75B0091044D /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		2C1E993D22C1F75B0091044D /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		2C1E994022C1F9680091044D /* CustomDialogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogController.swift; sourceTree = "<group>"; };
+		2C1E994622C1F9F10091044D /* InteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveTransition.swift; sourceTree = "<group>"; };
+		2C1E994722C1F9F10091044D /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		2C1E994822C1F9F10091044D /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		2C1E994922C1F9F10091044D /* UIView+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
+		2C1E994A22C1F9F10091044D /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		2C1E994B22C1F9F10091044D /* PopupDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialog.swift; sourceTree = "<group>"; };
+		2C1E994C22C1F9F10091044D /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		2C1E994D22C1F9F10091044D /* PopupDialogButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialogButton.swift; sourceTree = "<group>"; };
+		2C1E994E22C1F9F10091044D /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		2C1E994F22C1F9F10091044D /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		2C1E995022C1F9F10091044D /* TransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
+		2C1E995122C1F9F10091044D /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		2C1E995222C1F9F10091044D /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		2C1E995322C1F9F10091044D /* TransitionAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimations.swift; sourceTree = "<group>"; };
+		2C1E995422C1F9F10091044D /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		2C1E995522C1F9F10091044D /* PresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationManager.swift; sourceTree = "<group>"; };
+		2C1E995622C1F9F10091044D /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		2C1E995722C1F9F10091044D /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		2C1E996A22C1FC090091044D /* SuperDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperDialog.swift; sourceTree = "<group>"; };
+		2C1E996C22C1FD760091044D /* DialogAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogAction.swift; sourceTree = "<group>"; };
+		2C1E996E22C20D550091044D /* BaseDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDialog.swift; sourceTree = "<group>"; };
+		2C1E997022C20F010091044D /* MsgDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgDialog.swift; sourceTree = "<group>"; };
+		2C1E997222C212E80091044D /* UILabel+AttributedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+AttributedText.swift"; sourceTree = "<group>"; };
+		2C1E997422C213DB0091044D /* Com.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Com.swift; sourceTree = "<group>"; };
+		2C1E997922C2208D0091044D /* ImgDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgDialog.swift; sourceTree = "<group>"; };
+		2C1E997B22C221540091044D /* UILabel+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+extension.swift"; sourceTree = "<group>"; };
+		2C1E997D22C222AE0091044D /* sad_popup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sad_popup@2x.png"; sourceTree = "<group>"; };
+		2C1E998022C225C20091044D /* SignDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignDialog.swift; sourceTree = "<group>"; };
+		2C1E998222C226980091044D /* sign_coins_popup@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sign_coins_popup@2x.jpg"; sourceTree = "<group>"; };
+		84C114CEB9E9AEBC533560B7 /* Pods-CustomDialog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDialog.debug.xcconfig"; path = "Target Support Files/Pods-CustomDialog/Pods-CustomDialog.debug.xcconfig"; sourceTree = "<group>"; };
+		B74ABEDFC65033A81AB1F795 /* Pods_CustomDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A93B351C0AFE409276C180 /* Pods_CustomDialog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +149,8 @@
 				2C1E992122C1F70D0091044D /* CustomDialogTests */,
 				2C1E992C22C1F70D0091044D /* CustomDialogUITests */,
 				2C1E990B22C1F70A0091044D /* Products */,
+				5D75CDEC7C3190B4D3D363FB /* Pods */,
+				90E5324CF3B331F64A7242D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +169,14 @@
 			children = (
 				2C1E990D22C1F70A0091044D /* AppDelegate.swift */,
 				2C1E990F22C1F70A0091044D /* ViewController.swift */,
+				2C1E993F22C1F9370091044D /* Controllers */,
 				2C1E991122C1F70A0091044D /* Main.storyboard */,
 				2C1E991422C1F70D0091044D /* Assets.xcassets */,
 				2C1E991622C1F70D0091044D /* LaunchScreen.storyboard */,
 				2C1E991922C1F70D0091044D /* Info.plist */,
+				2C1E993C22C1F75B0091044D /* OCViewController.h */,
+				2C1E993D22C1F75B0091044D /* OCViewController.m */,
+				2C1E993B22C1F75B0091044D /* CustomDialog-Bridging-Header.h */,
 			);
 			path = CustomDialog;
 			sourceTree = "<group>";
@@ -125,6 +199,116 @@
 			path = CustomDialogUITests;
 			sourceTree = "<group>";
 		};
+		2C1E993F22C1F9370091044D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C1E994222C1F9A20091044D /* Custom */,
+				2C1E994022C1F9680091044D /* CustomDialogController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C1E994222C1F9A20091044D /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				2C1E994322C1F9A20091044D /* Ext */,
+				2C1E994422C1F9A20091044D /* Dialog */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		2C1E994322C1F9A20091044D /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				2C1E997B22C221540091044D /* UILabel+extension.swift */,
+				2C1E997222C212E80091044D /* UILabel+AttributedText.swift */,
+				2C1E994522C1F9F10091044D /* PopupDialog */,
+				2C1E997422C213DB0091044D /* Com.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		2C1E994422C1F9A20091044D /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				2C1E996922C1FBF40091044D /* Base */,
+				2C1E997F22C225B00091044D /* SignDialog */,
+				2C1E997822C2208D0091044D /* ImgDialog */,
+				2C1E997022C20F010091044D /* MsgDialog.swift */,
+			);
+			path = Dialog;
+			sourceTree = "<group>";
+		};
+		2C1E994522C1F9F10091044D /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				2C1E994622C1F9F10091044D /* InteractiveTransition.swift */,
+				2C1E994722C1F9F10091044D /* PresentationController.swift */,
+				2C1E994822C1F9F10091044D /* UIImageView+Calculations.swift */,
+				2C1E994922C1F9F10091044D /* UIView+Animations.swift */,
+				2C1E994A22C1F9F10091044D /* PopupDialogDefaultView.swift */,
+				2C1E994B22C1F9F10091044D /* PopupDialog.swift */,
+				2C1E994C22C1F9F10091044D /* PopupDialogOverlayView.swift */,
+				2C1E994D22C1F9F10091044D /* PopupDialogButton.swift */,
+				2C1E994E22C1F9F10091044D /* UIViewController+Visibility.swift */,
+				2C1E994F22C1F9F10091044D /* FXBlurView.h */,
+				2C1E995022C1F9F10091044D /* TransitionAnimator.swift */,
+				2C1E995122C1F9F10091044D /* PopupDialog+Keyboard.swift */,
+				2C1E995222C1F9F10091044D /* PopupDialogDefaultViewController.swift */,
+				2C1E995322C1F9F10091044D /* TransitionAnimations.swift */,
+				2C1E995422C1F9F10091044D /* PopupDialogDefaultButtons.swift */,
+				2C1E995522C1F9F10091044D /* PresentationManager.swift */,
+				2C1E995622C1F9F10091044D /* PopupDialogContainerView.swift */,
+				2C1E995722C1F9F10091044D /* FXBlurView.m */,
+			);
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
+		2C1E996922C1FBF40091044D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2C1E996C22C1FD760091044D /* DialogAction.swift */,
+				2C1E996A22C1FC090091044D /* SuperDialog.swift */,
+				2C1E996E22C20D550091044D /* BaseDialog.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2C1E997822C2208D0091044D /* ImgDialog */ = {
+			isa = PBXGroup;
+			children = (
+				2C1E997D22C222AE0091044D /* sad_popup@2x.png */,
+				2C1E997922C2208D0091044D /* ImgDialog.swift */,
+			);
+			path = ImgDialog;
+			sourceTree = "<group>";
+		};
+		2C1E997F22C225B00091044D /* SignDialog */ = {
+			isa = PBXGroup;
+			children = (
+				2C1E998222C226980091044D /* sign_coins_popup@2x.jpg */,
+				2C1E998022C225C20091044D /* SignDialog.swift */,
+			);
+			path = SignDialog;
+			sourceTree = "<group>";
+		};
+		5D75CDEC7C3190B4D3D363FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84C114CEB9E9AEBC533560B7 /* Pods-CustomDialog.debug.xcconfig */,
+				1222CFEAABE5A326C4CE0832 /* Pods-CustomDialog.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		90E5324CF3B331F64A7242D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B74ABEDFC65033A81AB1F795 /* Pods_CustomDialog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +316,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C1E993222C1F70D0091044D /* Build configuration list for PBXNativeTarget "CustomDialog" */;
 			buildPhases = (
+				B95175C3D681BE948E42A52F /* [CP] Check Pods Manifest.lock */,
 				2C1E990622C1F70A0091044D /* Sources */,
 				2C1E990722C1F70A0091044D /* Frameworks */,
 				2C1E990822C1F70A0091044D /* Resources */,
+				C1FC83D4C35340B29CE20BA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +379,7 @@
 				TargetAttributes = {
 					2C1E990922C1F70A0091044D = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					2C1E991D22C1F70D0091044D = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -229,7 +416,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1E997E22C222AE0091044D /* sad_popup@2x.png in Resources */,
 				2C1E991822C1F70D0091044D /* LaunchScreen.storyboard in Resources */,
+				2C1E998322C226980091044D /* sign_coins_popup@2x.jpg in Resources */,
 				2C1E991522C1F70D0091044D /* Assets.xcassets in Resources */,
 				2C1E991322C1F70A0091044D /* Main.storyboard in Resources */,
 			);
@@ -251,13 +440,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B95175C3D681BE948E42A52F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomDialog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1FC83D4C35340B29CE20BA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomDialog/Pods-CustomDialog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomDialog/Pods-CustomDialog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomDialog/Pods-CustomDialog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C1E990622C1F70A0091044D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1E996422C1F9F10091044D /* TransitionAnimations.swift in Sources */,
 				2C1E991022C1F70A0091044D /* ViewController.swift in Sources */,
+				2C1E996822C1F9F10091044D /* FXBlurView.m in Sources */,
+				2C1E996D22C1FD760091044D /* DialogAction.swift in Sources */,
+				2C1E996B22C1FC090091044D /* SuperDialog.swift in Sources */,
+				2C1E996622C1F9F10091044D /* PresentationManager.swift in Sources */,
+				2C1E996F22C20D550091044D /* BaseDialog.swift in Sources */,
+				2C1E996722C1F9F10091044D /* PopupDialogContainerView.swift in Sources */,
+				2C1E996122C1F9F10091044D /* TransitionAnimator.swift in Sources */,
+				2C1E997322C212E80091044D /* UILabel+AttributedText.swift in Sources */,
+				2C1E998122C225C20091044D /* SignDialog.swift in Sources */,
+				2C1E995C22C1F9F10091044D /* PopupDialogDefaultView.swift in Sources */,
+				2C1E995B22C1F9F10091044D /* UIView+Animations.swift in Sources */,
 				2C1E990E22C1F70A0091044D /* AppDelegate.swift in Sources */,
+				2C1E995A22C1F9F10091044D /* UIImageView+Calculations.swift in Sources */,
+				2C1E997122C20F010091044D /* MsgDialog.swift in Sources */,
+				2C1E997C22C221540091044D /* UILabel+extension.swift in Sources */,
+				2C1E996222C1F9F10091044D /* PopupDialog+Keyboard.swift in Sources */,
+				2C1E997522C213DB0091044D /* Com.swift in Sources */,
+				2C1E995E22C1F9F10091044D /* PopupDialogOverlayView.swift in Sources */,
+				2C1E995822C1F9F10091044D /* InteractiveTransition.swift in Sources */,
+				2C1E996322C1F9F10091044D /* PopupDialogDefaultViewController.swift in Sources */,
+				2C1E994122C1F9680091044D /* CustomDialogController.swift in Sources */,
+				2C1E993E22C1F75B0091044D /* OCViewController.m in Sources */,
+				2C1E995D22C1F9F10091044D /* PopupDialog.swift in Sources */,
+				2C1E997A22C2208D0091044D /* ImgDialog.swift in Sources */,
+				2C1E996522C1F9F10091044D /* PopupDialogDefaultButtons.swift in Sources */,
+				2C1E996022C1F9F10091044D /* UIViewController+Visibility.swift in Sources */,
+				2C1E995F22C1F9F10091044D /* PopupDialogButton.swift in Sources */,
+				2C1E995922C1F9F10091044D /* PresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +689,10 @@
 		};
 		2C1E993322C1F70D0091044D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C114CEB9E9AEBC533560B7 /* Pods-CustomDialog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CustomDialog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,15 +701,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.meihui.com.CustomDialog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomDialog/CustomDialog-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		2C1E993422C1F70D0091044D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1222CFEAABE5A326C4CE0832 /* Pods-CustomDialog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CustomDialog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,7 +722,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.meihui.com.CustomDialog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomDialog/CustomDialog-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
